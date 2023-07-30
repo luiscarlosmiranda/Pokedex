@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: aliceblue ;
+
+  }
+  
+  #search {
+    background-color: #ffffff;
+    color: #333;
+    width: 350px;
+    padding: 3px;    
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-left: 16px;
+    font-family: "comic sans ms", cursive, sans-serif;
+    
+  }
+
+  h1 img {
+    width: 10rem;
+    margin: 16px
+
+  }
+  
+  #cards {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 50px;
+  }
+  
+  .card {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 50px;
+  }
+  
+  .card h2 {
+    margin: 0;
+  }
+
+  #search-container {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  #search-container img {
+    width: 130px;
+    margin-left: 16px;
+    margin-right: 16px;
+    
+  }
+
+  img:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s;
+  }
